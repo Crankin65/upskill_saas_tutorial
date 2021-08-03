@@ -33,27 +33,19 @@ h1, h2, h3{
 //Nav Styles
 .navbar {
   border: none;
-
 }
 
-.navbar-default .navbar-brand {
-  color: gray;
-  padding-left: 80px;
-}
-
+.navbar-default .navbar-brand,
 .navbar-default .navbar-nav > li > a {
-  color: white;
-  padding-right: 80px;
+  color: black;
+ &:hover {
+   color: white;
+   opacity: 0.75;
+ }
 }
 
-.navbar-default .navbar-brand:hover {
-  color: white;
-  opacity: 0.75;
-}
-
-.navbar-default .navbar-nav > li > a:hover {
-  color: white;
-  opacity: 0.75;
+.navbar-right {
+  padding-right: 20px;
 }
 
 // Home Page Styles
